@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8" />
+    <title>Video Controls</title>
+    <link rel="stylesheet" href="CSS\style.css"/>
+    <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+    <script src="JS\app.js"></script>
+</head>
+
+<body>
+	<div class="container">
+		<div class="videocontainer">
+   			<video id="myvideo" controls>
+  				<source src="asset\ribbit.mp4" type="video/mp4">
+  				Your browser does not support the video tag.
+   			</video>
+		</div>
+		<div class="videocontrols">
+            <ul>
+                <li><a class="play" href="javascript:void(0);">Play</a></li>
+                <li><a class="stop" href="javascript:void(0);">Stop</a></li>
+                <li><a class="total" href="javascript:void(0);">Total time</a></li>
+                <li><a class="present" href="javascript:void(0);">Present</a></li>
+                <li><a class="timeleft" href="javascript:void(0);">Time left</a></li>
+                <li><a class="finish" href="javascript:void(0);">Finish video</a></li>
+                <li><a class="run" href="javascript:void(0);">Run for 20s</a></li>        
+				        <li><a class="full" href="javascript:void(0);">Full screen</a></li>      
+            </ul>
+		</div>
+    <div class="videodata"><p></p></div>
+	</div>
+</body>
+</html>
